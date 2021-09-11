@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.mainMenuPannel = new System.Windows.Forms.Panel();
+            this.gamePanel = new System.Windows.Forms.Panel();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.settings = new System.Windows.Forms.Button();
             this.leaderboards = new System.Windows.Forms.Button();
             this.start = new System.Windows.Forms.Button();
-            this.gamePanel = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.mainMenuPannel.SuspendLayout();
             this.gamePanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -49,6 +49,24 @@
             this.mainMenuPannel.Name = "mainMenuPannel";
             this.mainMenuPannel.Size = new System.Drawing.Size(369, 311);
             this.mainMenuPannel.TabIndex = 0;
+            // 
+            // gamePanel
+            // 
+            this.gamePanel.Controls.Add(this.dataGridView1);
+            this.gamePanel.Location = new System.Drawing.Point(0, 0);
+            this.gamePanel.Name = "gamePanel";
+            this.gamePanel.Size = new System.Drawing.Size(369, 311);
+            this.gamePanel.TabIndex = 6;
+            this.gamePanel.Visible = false;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(369, 311);
+            this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // settings
             // 
@@ -80,23 +98,6 @@
             this.start.Text = "play";
             this.start.UseVisualStyleBackColor = true;
             this.start.Click += new System.EventHandler(this.start_Click_1);
-            // 
-            // gamePanel
-            // 
-            this.gamePanel.Controls.Add(this.dataGridView1);
-            this.gamePanel.Location = new System.Drawing.Point(0, 0);
-            this.gamePanel.Name = "gamePanel";
-            this.gamePanel.Size = new System.Drawing.Size(369, 311);
-            this.gamePanel.TabIndex = 6;
-            this.gamePanel.Visible = false;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(369, 311);
-            this.dataGridView1.TabIndex = 0;
             // 
             // MainMenu
             // 

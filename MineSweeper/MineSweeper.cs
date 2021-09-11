@@ -19,11 +19,19 @@ namespace MineSweeper
 
         private void start_Click_1(object sender, EventArgs e)
         {
-            DataTable displayTable = new DataTable();
-            dataGridView1.DataSource = displayTable;
+        
+            BackendGrid BGrid = new BackendGrid();
+            DisplayGrid DGrid = new DisplayGrid();
             
             mainMenuPannel.Visible = false;
-            gamePanel.Visible = true;
+            gamePanel.Visible = false;
+
+            MessageBox.Show("run game");
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            MessageBox.Show("clicked grid");
         }
     }
 }
