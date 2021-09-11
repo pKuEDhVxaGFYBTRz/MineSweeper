@@ -30,13 +30,10 @@
         {
             this.mainMenuPannel = new System.Windows.Forms.Panel();
             this.gamePanel = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.settings = new System.Windows.Forms.Button();
             this.leaderboards = new System.Windows.Forms.Button();
             this.start = new System.Windows.Forms.Button();
             this.mainMenuPannel.SuspendLayout();
-            this.gamePanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // mainMenuPannel
@@ -52,21 +49,11 @@
             // 
             // gamePanel
             // 
-            this.gamePanel.Controls.Add(this.dataGridView1);
             this.gamePanel.Location = new System.Drawing.Point(0, 0);
             this.gamePanel.Name = "gamePanel";
             this.gamePanel.Size = new System.Drawing.Size(369, 311);
             this.gamePanel.TabIndex = 6;
             this.gamePanel.Visible = false;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(369, 311);
-            this.dataGridView1.TabIndex = 0;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // settings
             // 
@@ -110,8 +97,6 @@
             this.Text = "MineSweeper";
             this.mainMenuPannel.ResumeLayout(false);
             this.mainMenuPannel.PerformLayout();
-            this.gamePanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -123,7 +108,6 @@
         private System.Windows.Forms.Button leaderboards;
         private System.Windows.Forms.Button start;
         private System.Windows.Forms.Panel gamePanel;
-        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
 

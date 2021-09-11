@@ -20,7 +20,7 @@ namespace MineSweeper
         // make the grid block
         public GridBlock grid { get; }
 
-        public DisplayGrid()
+        public DisplayGrid(Panel gamePanel)
         {
             // initialise display grid
                 
@@ -42,6 +42,7 @@ namespace MineSweeper
                         Left = start_y + (y * ButtonWidth + Distance),
                         Width = ButtonWidth,
                         Height = ButtonHeight,
+                        Parent = gamePanel,
                         Text = "t"
                     };
 

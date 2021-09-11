@@ -20,12 +20,15 @@ namespace MineSweeper
         private void start_Click_1(object sender, EventArgs e)
         {
         
+            // create the grids
             BackendGrid BGrid = new BackendGrid();
-            DisplayGrid DGrid = new DisplayGrid();
+            DisplayGrid DGrid = new DisplayGrid(gamePanel);
             
+            // make the game visible
             mainMenuPannel.Visible = false;
-            gamePanel.Visible = false;
+            gamePanel.Visible = true;
 
+            // confirm game is running for debug purposes
             MessageBox.Show("run game");
         }
 
