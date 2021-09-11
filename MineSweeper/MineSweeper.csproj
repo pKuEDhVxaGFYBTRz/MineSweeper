@@ -48,7 +48,8 @@
   <ItemGroup>
     <Compile Include="BackendGrid.cs" />
     <Compile Include="displayGrid.cs" />
-    <Compile Include="GridBlock.cs">
+    <Compile Include="GridBlock.cs" />
+    <Compile Include="GridBlockGui.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="MineSweeper.cs">

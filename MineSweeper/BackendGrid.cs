@@ -9,18 +9,18 @@ namespace MineSweeper
     class BackendGrid
     {
 
-        int ButtonWidth = 40;
-        int ButtonHeight = 40;
-        int Distance = 20;
-        int start_x = 10;
-        int start_y = 10;
-
         public GridBlock grid { get; }
 
         public BackendGrid()
         {
             // initialise backend grid
             GridBlock[,] grid = new GridBlock[8, 8];
+
+            /* TODO :
+             * implement logic to generate a map
+             * add logic to generate numbers
+             * dynamic grid size based on difficulty settings
+            */
         }
     }
 }

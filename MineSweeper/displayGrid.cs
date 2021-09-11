@@ -7,6 +7,7 @@ using System.Windows.Forms;
 
 namespace MineSweeper
 {
+    // this class is similar to backend grid however it uses GridBlockGui to create buttons that can be clicked
     class DisplayGrid
     {
         // constants
@@ -23,7 +24,7 @@ namespace MineSweeper
         {
             // initialise display grid
                 
-            GridBlock[,] grid = new GridBlock[8, 8];
+            GridBlockGui[,] grid = new GridBlockGui[8, 8];
 
             MessageBox.Show("running class");
 
@@ -34,7 +35,8 @@ namespace MineSweeper
             {
                 for (y = 0; y < 8; y++)
                 {
-                    GridBlock tmpButton = new GridBlock
+                    // create a new grid block 
+                    GridBlockGui tmpButton = new GridBlockGui
                     {
                         Top = start_x + (x * ButtonHeight + Distance),
                         Left = start_y + (y * ButtonWidth + Distance),
@@ -43,6 +45,7 @@ namespace MineSweeper
                         Text = "t"
                     };
 
+                    // add button to array to 2D array so it can be indexed
                     grid[x,y] = tmpButton;
                 }
             }

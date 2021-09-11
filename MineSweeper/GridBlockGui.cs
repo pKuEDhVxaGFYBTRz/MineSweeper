@@ -7,10 +7,9 @@ using System.Windows.Forms;
 
 namespace MineSweeper
 {
-    // this class doesnt inherit properties from the button class so its better for storing the grid in the back end
-    class GridBlock
+    class GridBlockGui : Button
     {
-        public GridBlock()
+        public GridBlockGui()
         {
             // initialised grid block   class
         }
