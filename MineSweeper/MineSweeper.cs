@@ -25,7 +25,7 @@ namespace MineSweeper
             DisplayGrid DGrid = new DisplayGrid(gamePanel);
             
             // make the game visible
-            mainMenuPannel.Visible = false;
+            mainMenuPanel.Visible = false;
             gamePanel.Visible = true;
 
             // confirm game is running for debug purposes
@@ -35,6 +35,11 @@ namespace MineSweeper
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             MessageBox.Show("clicked grid");
+        }
+
+        private void gamePanel_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

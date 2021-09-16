@@ -11,11 +11,11 @@ namespace MineSweeper
     class DisplayGrid
     {
         // constants
-        const int ButtonWidth = 40;
-        const int ButtonHeight = 40;
+        const int ButtonWidth = 35;
+        const int ButtonHeight = 35;
         const int Distance = 20;
-        const int start_x = 10;
-        const int start_y = 10;
+        const int start_x = 0;
+        const int start_y = 0;
 
         // make the grid block
         public GridBlock grid { get; }
@@ -42,9 +42,11 @@ namespace MineSweeper
                         Left = start_y + (y * ButtonWidth + Distance),
                         Width = ButtonWidth,
                         Height = ButtonHeight,
-                        Parent = gamePanel,
-                        Text = "t"
+                        //Text = "t",
+                        Visible = true
                     };
+
+                    gamePanel.Controls.Add(tmpButton);
 
                     // add button to array to 2D array so it can be indexed
                     grid[x,y] = tmpButton;
