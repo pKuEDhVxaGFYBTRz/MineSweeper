@@ -29,7 +29,7 @@ namespace MineSweeper
             gamePanel.Visible = true;
 
             // confirm game is running for debug purposes
-            MessageBox.Show("run game");
+            //MessageBox.Show("run game");
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)

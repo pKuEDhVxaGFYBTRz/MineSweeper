@@ -17,3 +17,14 @@ C:\Users\Jake\source\repos\MineSweeper\MineSweeper\obj\Debug\MineSweeper.csproj.
 C:\Users\Jake\source\repos\MineSweeper\MineSweeper\obj\Debug\MineSweeper.csproj.CoreCompileInputs.cache
 C:\Users\Jake\source\repos\MineSweeper\MineSweeper\obj\Debug\MineSweeper.exe
 C:\Users\Jake\source\repos\MineSweeper\MineSweeper\obj\Debug\MineSweeper.pdb
+C:\Users\Jake\Source\Repos\pKuEDhVxaGFYBTRz\MineSweeper\MineSweeper\bin\Debug\MineSweeper.exe.config
+C:\Users\Jake\Source\Repos\pKuEDhVxaGFYBTRz\MineSweeper\MineSweeper\bin\Debug\MineSweeper.exe
+C:\Users\Jake\Source\Repos\pKuEDhVxaGFYBTRz\MineSweeper\MineSweeper\bin\Debug\MineSweeper.pdb
+C:\Users\Jake\Source\Repos\pKuEDhVxaGFYBTRz\MineSweeper\MineSweeper\obj\Debug\MineSweeper.csproj.AssemblyReference.cache
+C:\Users\Jake\Source\Repos\pKuEDhVxaGFYBTRz\MineSweeper\MineSweeper\obj\Debug\MineSweeper.csproj.SuggestedBindingRedirects.cache
+C:\Users\Jake\Source\Repos\pKuEDhVxaGFYBTRz\MineSweeper\MineSweeper\obj\Debug\MineSweeper.MainMenu.resources
+C:\Users\Jake\Source\Repos\pKuEDhVxaGFYBTRz\MineSweeper\MineSweeper\obj\Debug\MineSweeper.Properties.Resources.resources
+C:\Users\Jake\Source\Repos\pKuEDhVxaGFYBTRz\MineSweeper\MineSweeper\obj\Debug\MineSweeper.csproj.GenerateResource.cache
+C:\Users\Jake\Source\Repos\pKuEDhVxaGFYBTRz\MineSweeper\MineSweeper\obj\Debug\MineSweeper.csproj.CoreCompileInputs.cache
+C:\Users\Jake\Source\Repos\pKuEDhVxaGFYBTRz\MineSweeper\MineSweeper\obj\Debug\MineSweeper.exe
+C:\Users\Jake\Source\Repos\pKuEDhVxaGFYBTRz\MineSweeper\MineSweeper\obj\Debug\MineSweeper.pdb

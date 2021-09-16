@@ -23,10 +23,7 @@ namespace MineSweeper
         public DisplayGrid(Panel gamePanel)
         {
             // initialise display grid
-                
             GridBlockGui[,] grid = new GridBlockGui[8, 8];
-
-            MessageBox.Show("running class");
 
             // create iterator variables
             int x, y;
@@ -46,6 +43,7 @@ namespace MineSweeper
                         Visible = true
                     };
 
+                    // add button to panel
                     gamePanel.Controls.Add(tmpButton);
 
                     // add button to array to 2D array so it can be indexed

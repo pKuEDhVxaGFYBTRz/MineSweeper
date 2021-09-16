@@ -25,7 +25,6 @@ namespace MineSweeper
                 {
                     // create a new grid block 
                     GridBlock block = new GridBlock();
-                    block.MakeRandom();
                     grid[x, y] = block;
                 }
             }
