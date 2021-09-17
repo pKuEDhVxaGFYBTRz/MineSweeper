@@ -10,12 +10,12 @@ namespace MineSweeper
     // this class doesnt inherit properties from the button class so its better for storing the grid in the back end
     class GridBlock
     {
-        public int Value { get; set; }
+        public string Value { get; set; }
 
         public GridBlock()
         {
             // initialised grid block   class
-            this.Value = -1;
+            Value = "";
         }
     }
 }

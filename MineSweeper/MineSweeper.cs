@@ -12,6 +12,8 @@ namespace MineSweeper
 {
     public partial class MainMenu : Form
     {
+        BackendGrid BGrid { get; set; }
+        DisplayGrid DGrid { get; set; }
         public MainMenu()
         {
             InitializeComponent();
@@ -19,17 +21,15 @@ namespace MineSweeper
 
         private void start_Click_1(object sender, EventArgs e)
         {
-        
+            
             // create the grids
-            BackendGrid BGrid = new BackendGrid();
-            DisplayGrid DGrid = new DisplayGrid(gamePanel);
+            BGrid = new BackendGrid();
+            DGrid = new DisplayGrid(gamePanel, BGrid, mainMenuPanel, gamePanel);
             
             // make the game visible
             mainMenuPanel.Visible = false;
             gamePanel.Visible = true;
 
-            // confirm game is running for debug purposes
-            //MessageBox.Show("run game");
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -40,6 +40,12 @@ namespace MineSweeper
         private void gamePanel_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        public void makeMenuVisible()
+        {
+            gamePanel.Visible = false;
+            mainMenuPanel.Visible = true;
         }
     }
 }

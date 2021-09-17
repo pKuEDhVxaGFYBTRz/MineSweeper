@@ -47,11 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BackendGrid.cs" />
-    <Compile Include="displayGrid.cs" />
-    <Compile Include="GridBlock.cs" />
+    <Compile Include="ImageHandler.cs" />
     <Compile Include="GridBlockGui.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="displayGrid.cs" />
+    <Compile Include="GridBlock.cs" />
     <Compile Include="MineSweeper.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +85,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
