@@ -32,7 +32,7 @@ namespace MineSweeper
 
                 MessageBox.Show("game over");
 
-                // make the game visible
+                // make the game invisible
 
                 Menu.Visible = true;
                 Game.Visible = false;
@@ -40,7 +40,37 @@ namespace MineSweeper
             }
             else
             {
-                DGrid.grid[X, Y].Text = BGrid.grid[X, Y].Value;
+                if (BGrid.grid[X, Y].Value == "0")
+                {
+                    DGrid.grid[X, Y].Text = "";
+
+                    int X1, Y1, checkX, checkY;
+
+                    for (X1 = -1; X1 < 2; X1++)
+                    {
+                        for (Y1 = -1; Y1 < 2; Y1++)
+                        {
+                            checkX = X + X1;
+                            checkY = Y + Y1;
+
+                            try
+                            { 
+                                DGrid.grid[checkX, checkY].PerformClick(); 
+                            }
+
+                            catch  
+                            { 
+                                continue; 
+                            }
+
+                        }
+                    }
+                }
+
+                else
+                {
+                    DGrid.grid[X, Y].Text = BGrid.grid[X, Y].Value;
+                }
             }
 
         }

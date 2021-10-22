@@ -28,3 +28,12 @@ C:\Users\Jake\Source\Repos\pKuEDhVxaGFYBTRz\MineSweeper\MineSweeper\obj\Debug\Mi
 C:\Users\Jake\Source\Repos\pKuEDhVxaGFYBTRz\MineSweeper\MineSweeper\obj\Debug\MineSweeper.csproj.CoreCompileInputs.cache
 C:\Users\Jake\Source\Repos\pKuEDhVxaGFYBTRz\MineSweeper\MineSweeper\obj\Debug\MineSweeper.exe
 C:\Users\Jake\Source\Repos\pKuEDhVxaGFYBTRz\MineSweeper\MineSweeper\obj\Debug\MineSweeper.pdb
+\\NEPTUNE\s21000000300\Files\CompScience\c# basics\MineSweeper\MineSweeper\bin\Debug\MineSweeper.exe.config
+\\NEPTUNE\s21000000300\Files\CompScience\c# basics\MineSweeper\MineSweeper\bin\Debug\MineSweeper.exe
+\\NEPTUNE\s21000000300\Files\CompScience\c# basics\MineSweeper\MineSweeper\bin\Debug\MineSweeper.pdb
+\\NEPTUNE\s21000000300\Files\CompScience\c# basics\MineSweeper\MineSweeper\obj\Debug\MineSweeper.csprojAssemblyReference.cache
+\\NEPTUNE\s21000000300\Files\CompScience\c# basics\MineSweeper\MineSweeper\obj\Debug\MineSweeper.MainMenu.resources
+\\NEPTUNE\s21000000300\Files\CompScience\c# basics\MineSweeper\MineSweeper\obj\Debug\MineSweeper.Properties.Resources.resources
+\\NEPTUNE\s21000000300\Files\CompScience\c# basics\MineSweeper\MineSweeper\obj\Debug\MineSweeper.csproj.GenerateResource.cache
+\\NEPTUNE\s21000000300\Files\CompScience\c# basics\MineSweeper\MineSweeper\obj\Debug\MineSweeper.exe
+\\NEPTUNE\s21000000300\Files\CompScience\c# basics\MineSweeper\MineSweeper\obj\Debug\MineSweeper.pdb

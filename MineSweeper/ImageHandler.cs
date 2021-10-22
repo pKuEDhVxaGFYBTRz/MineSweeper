@@ -14,7 +14,7 @@ namespace MineSweeper
         
         public ImageHandler()
         {
-            Bomb = Image.FromFile(@"H:\CompScience\c# basics\MineSweeper\MineSweeper\MineSweeper\images\bomb.png");
+            Bomb = Image.FromFile(@"H:\CompScience\c# basics\MineSweeper\MineSweeper\images\bomb.png");
         }
     }
 }
